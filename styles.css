@@ -1,0 +1,140 @@
+body {
+    margin: 0;
+}
+
+.main-page-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    background-image: url("images/Group 1.png");
+    background-position: left -10px;
+    background-attachment: fixed;
+    background-size: cover;
+    position: relative;
+    min-height: 100%;
+}
+
+.nav-bar-container {
+    background-image: url("images/BlackRaisin2.webp");
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-self: left;
+    width: 100%;
+    height: 110px;
+    position: fixed;
+    z-index: 2;
+}
+
+.nav-bar-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+.page-name {
+    font-size: 24pt;
+    color: #f8fbfb;
+    font-weight: 900;
+    text-decoration: none;
+}
+
+.page-name:hover {
+    color: #dbebeb;
+}
+
+.fa-bars {
+    color: #f8fbfb;
+    height: 50px;
+    width: 50px;
+    justify-self: center;
+}
+
+.fa-bars:hover {
+    color: #dbebeb;
+}
+
+.invsbl-nav-elem {
+    height: 50px;
+    width: 50px;
+}
+
+.album-links-container {
+    background-size: cover;
+    min-height: 100vh;
+    height: 100vh;
+    align-self: right;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    overflow: scroll;
+}
+
+.invsbl-link-elem {
+    height: 110px;
+    width: 100%;
+}
+
+.album-link {
+    margin: 50px;
+    height: 250px;
+    width: 250px;
+    background-size: contain;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#hfLink {
+    background-image: url("images/HF Album Photo.png");
+    background-color: #538b90;
+    
+}
+
+#stLink {
+    background-image: url("images/ST Album Photo.png");
+    background-color: #d8b666;
+}
+
+#sdLink {
+    background-image: url("images/SD Album Photo.png");
+    background-color: #382417;
+}
+
+#daLink {
+    background-image: url("images/DA Album Photo.png");
+    background-color: #1f1c23;
+}
+
+#bbLink {
+    background-image: url("images/BB Album Photo.png");
+    background-color: #f8fbfb;
+}
+
+#wwLink {
+    background-image: url("images/WW Album Photo.png");
+    background-color: #9f5c0c;
+}
+
+#itmLink {
+    background-image: url("images/ITM Album Photo.png");
+    background-color: #538b90;
+}
+
+#pmLink {
+    background-image: url("images/PM Album Photo.png");
+    background-color: #d8b666;
+}
+
+.fa-circle-play {
+    color: #f8fbfb;
+    opacity: 0.7;
+}
+
+.fa-circle-play:hover {
+    opacity: 0.9;
+}
