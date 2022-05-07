@@ -197,6 +197,7 @@ const _onClick = function(playElem, trackNumber, albumArr) {
             player.loop = false;
             player.addEventListener("ended", () => {
                 playElem.innerHTML = "";
+                playElem.className = "fa-solid fa-circle-play fa-3x";
             })
         } else {
             console.log("An unknown error has occurred.");

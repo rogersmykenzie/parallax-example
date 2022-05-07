@@ -1,5 +1,6 @@
 body {
     margin: 0;
+    z-index: -1;
 }
 
 .main-page-container {
@@ -21,7 +22,7 @@ body {
     flex-direction: row;
     justify-content: space-between;
     align-self: left;
-    width: 100%;
+    width: 98.8999%;
     height: 110px;
     position: fixed;
     z-index: 2;
