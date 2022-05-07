@@ -150,7 +150,6 @@ const onClick = function(clicked_id) {
     let pm = document.getElementById('pmPlay');
     let elem;
 
-    console.log("Called", clicked_id, hf.id);
     if(clicked_id === hf.id) {
         trackNumber = Math.floor(Math.random() * hfAudios.length);
         albumArr = hfAudios;
