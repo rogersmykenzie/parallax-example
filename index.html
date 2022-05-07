@@ -7,6 +7,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="styles.css">
         <script src="https://kit.fontawesome.com/a941213dc7.js" crossorigin="anonymous"></script>
+        <script type="text/javascript" src="playAudio.js"></script>
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;900&display=swap" rel="stylesheet">
@@ -31,52 +32,30 @@
             <div class="album-links-container">
                 <div class="invsbl-link-elem"></div>
                 <div class="album-link" id="hfLink">
-                    <a href="">
-                        <i class="fa-solid fa-circle-play fa-3x"></i>
-                    </a>
+                    <i class="fa-solid fa-circle-play fa-3x" id="hfPlay" onclick="onClick(this.id)"></i>
                 </div>
                 <div class="album-link" id="stLink">
-                    <a href="">
-                        <i class="fa-solid fa-circle-play fa-3x"></i>
-                    </a>
+                    <i class="fa-solid fa-circle-play fa-3x" id="stPlay" onclick="onClick(this.id)"></i>
                 </div>
                 <div class="album-link" id="sdLink">
-                    <a href="">
-                        <i class="fa-solid fa-circle-play fa-3x"></i>
-                    </a>
+                    <i class="fa-solid fa-circle-play fa-3x" id="sdPlay" onclick="onClick(this.id)"></i>
                 </div>
                 <div class="album-link" id="daLink">
-                    <a href="">
-                        <i class="fa-solid fa-circle-play fa-3x"></i>
-                    </a>
+                    <i class="fa-solid fa-circle-play fa-3x" id="daPlay" onclick="onClick(this.id)"></i>
                 </div>
                 <div class="album-link" id="bbLink">
-                    <a href="">
-                        <i class="fa-solid fa-circle-play fa-3x"></i>
-                    </a>
+                    <i class="fa-solid fa-circle-play fa-3x" id="bbPlay" onclick="onClick(this.id)"></i>
                 </div>
                 <div class="album-link" id="wwLink">
-                    <a href="">
-                        <i class="fa-solid fa-circle-play fa-3x"></i>
-                    </a>
+                    <i class="fa-solid fa-circle-play fa-3x" id="wwPlay" onclick="onClick(this.id)"></i>
                 </div>
                 <div class="album-link" id="itmLink">
-                    <a href="">
-                        <i class="fa-solid fa-circle-play fa-3x"></i>
-                    </a>
+                    <i class="fa-solid fa-circle-play fa-3x" id="itmPlay" onclick="onClick(this.id)"></i>
                 </div>
                 <div class="album-link" id="pmLink">
-                    <a href="">
-                        <i class="fa-solid fa-circle-play fa-3x"></i>
-                    </a>
+                    <i class="fa-solid fa-circle-play fa-3x" id="pmPlay" onclick="onClick(this.id)"></i>
                 </div>
             </div>
         </div>
     </body>
 </html>
-
-<script>
-    $('i').click(function () {
-      $('#tgl').toggleClass('fa-circle-play fa-circle-pause');
-    });  
-</script>

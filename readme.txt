@@ -13,3 +13,5 @@ In the future, I'd like to make play toggle with pause on click, and add a menu 
 Issues 1 and 3 will be resolved at some point, but issue 2 is a permanent issue. A fully functioning version of this site is not feasible
 due to copyright. However, I am pleased enough with the design and concept for my first website. And the display is
 responsive and dynamic to within approx 1/2 the width of a full desktop frame.
+
+Edit: I got the local version fully functional. Can play songs and change classes for play/pause button.

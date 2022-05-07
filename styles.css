@@ -137,4 +137,15 @@ body {
 
 .fa-circle-play:hover {
     opacity: 0.9;
+    cursor: pointer;
+}
+
+.fa-circle-pause {
+    color: #f8fbfb;
+    opacity: 0.7;
+}
+
+.fa-circle-pause:hover {
+    opacity: 0.9;
+    cursor: pointer;
 }
